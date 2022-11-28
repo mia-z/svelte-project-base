@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Lato:wght@300;400;700&family=Lobster&family=Lora:wght@400;500;600&family=Mulish:wght@400;500;600&family=Nunito:wght@300;400;500;600&family=Open+Sans:wght@300;400;500;600&family=Readex+Pro&family=Roboto:wght@300;400;500&family=Signika:wght@400;500;600&family=Varela+Round&family=Work+Sans:wght@300;400;500&display=swap');
+
+html, body, #app {
+    background-color: whitesmoke;
+}
+
+$lato: 'Lato', sans-serif;
+$lobster: 'Lobster', cursive;
+$lora: 'Lora', serif;
+$mulish: 'Mulish', sans-serif;
+$nunito: 'Nunito', sans-serif;
+$open-sans: 'Open Sans', sans-serif;
+$roboto: 'Roboto Slab', serif;
+$work-sans: 'Work Sans', sans-serif;
+$abyssinica: 'Abyssinica SIL', serif;
+$dot-matrix: 'Dot Matrix', serif;
+$signika: 'Signika Negative', sans-serif;
+$verala-round: 'Varela Round', sans-serif;
+$readex: 'Readex Pro', sans-serif;
+
+.dot-matrix {
+    font-family: $dot-matrix;
+}
+
+.lato {
+    font-family: $lato;
+}
+
+.lobster {
+    font-family: $lobster;
+}
+
+.lora {
+    font-family: $lora;
+}
+
+.mulish {
+    font-family: $mulish;
+}
+
+.nunito {
+    font-family: $nunito;
+}
+
+.open-sans {
+    font-family: $open-sans;
+}
+
+.roboto {
+    font-family: $roboto;
+}
+
+.work-sans {
+    font-family: $work-sans;
+}
+
+.abyssinica {
+    font-family: $abyssinica;
+}
+
+.signika {
+    font-family: $signika;
+}
+
+.verala-round {
+    font-family: $verala-round;
+}
+
+.readex {
+    font-family: $readex;
+}
+
+//REMOVE UGLY ARROWS FROM input[type=number]
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.styled-scrollbars {
+    // --scrollbar-foreground: rgb(66, 65, 65);
+    --scrollbar-foreground: rgb(56 189 248);
+    --scrollbar-background: rgba(0,0,0,0);
+    /* Foreground, Background */
+    scrollbar-color: var(--scrollbar-foreground) var(--scrollbar-background);
+}
+.styled-scrollbars::-webkit-scrollbar {
+    width: 7px; /* Mostly for vertical scrollbars */
+    height: 10px; /* Mostly for horizontal scrollbars */
+}
+.styled-scrollbars::-webkit-scrollbar-thumb { /* Foreground */
+    background: var(--scrollbar-foreground);
+    border-radius: 5px;
+}
+.styled-scrollbars::-webkit-scrollbar-track { /* Background */
+    background: var(--scrollbar-background);
+}
+
+@import "./tw-extensions.scss";
+
+@font-face {
+    font-family: "Dot Matrix";
+    src: url("./DOTMATRI.TTF");
+}
+
+// #main.preload * {
+//     animation-duration: 0s !important;
+//     -webkit-animation-duration: 0s !important;
+//     transition:background-color 0s, opacity 0s, color 0s, width 0s, height 0s, padding 0s, margin 0s !important;
+// }
