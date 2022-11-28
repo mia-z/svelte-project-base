@@ -1,4 +1,4 @@
-My starting point for non-SRR Svelte projects
+# My starting point for non-SRR Svelte projects
 
 Dev stack:
 
