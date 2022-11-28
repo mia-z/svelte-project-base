@@ -10,3 +10,5 @@ Dev stack:
 - SASS
 - Prettier
 - ESLint
+- Docker-compose for container dev-environment
+- Docker with minimal alpine nginx image for hosting static website
